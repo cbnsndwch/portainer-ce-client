@@ -1,0 +1,55 @@
+{
+    "name": "@cbnsndwch/portainer-ce-client",
+    "description": "A Portainer CE API client with Docker API support",
+    "version": "0.1.0",
+    "author": {
+        "name": "Sergio Leon",
+        "url": "https://www.cbnsndwch.io"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cbnsndwch/portainer-ce-client.git"
+    },
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "clean": "rimraf lib",
+        "prebuild": "yarn clean",
+        "build": "tsc -p tsconfig.build.json && vite build",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "lint": "eslint \"src/**/*\"",
+        "lint:fix": "eslint \"src/**/*\" --fix",
+        "docs": "yarn build && typedoc --options typedoc.config.js",
+        "docs:serve": "yarn docs && cd docs && http-server -o -p 8080",
+        "docs:serve:only": "cd docs && http-server -o -p 8080"
+    },
+    "peerDependencies": {
+        "axios": "^1.6.0"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.56.0",
+        "@types/node": "^18.18.13",
+        "@types/source-map-support": "^0",
+        "@typescript-eslint/eslint-plugin": "^6.16.0",
+        "@typescript-eslint/parser": "^6.16.0",
+        "axios": "^1.6.3",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-prettier": "^5.1.2",
+        "http-server": "^14.1.1",
+        "prettier": "^3.1.1",
+        "rimraf": "^5.0.5",
+        "source-map-support": "^0.5.21",
+        "typedoc": "^0.25.4",
+        "typedoc-plugin-extras": "^3.0.0",
+        "typedoc-plugin-mdn-links": "^3.1.9",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.10",
+        "vitest": "^1.1.0"
+    },
+    "packageManager": "yarn@4.0.2"
+}
