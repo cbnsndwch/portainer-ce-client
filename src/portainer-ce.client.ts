@@ -1,11 +1,11 @@
 import Axios, { AxiosInstance } from 'axios';
 
 import {
+    PortainerCeClientOptions,
     IIdResponse,
     ISecret,
     ISecretSpec,
     IListSecretsFilterInput,
-    PortainerCeClientOptions,
     ICreateSecretInput
 } from './contracts';
 import { assertIsDefined } from './utils';

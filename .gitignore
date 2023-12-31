@@ -14,6 +14,9 @@ lib
 build
 dist
 
+# TypeDoc output
+/docs/reference
+
 # Logs
 logs
 *.log

@@ -2,7 +2,7 @@
  * Options for plugin `typedoc-plugin-extras`
  */
 const pluginOptionsExtras = {
-    favicon: './docs/assets/favicon.ico',
+    // favicon: './docs/favicon.ico',
     footerLastModified: true
 };
 
@@ -23,12 +23,12 @@ module.exports = {
     // Input
     // ************************
     tsconfig: './tsconfig.docs.json',
-    entryPointStrategy: 'packages',
     entryPoints: ['src/index.ts'],
+
     // ************************
     // Output
     // ************************
-    out: './docs',
+    out: './docs/reference',
 
     // ************************
     // Plugin Options

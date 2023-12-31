@@ -1,7 +1,7 @@
 /**
- * The filters acceptedd by the list docker secrets endpoint
+ * The filters accepted by the list docker secrets endpoint
  */
-export type IListSecretsFilterInput = {
+export interface IListSecretsFilterInput {
     /**
      * (Optional) secret ID
      */
@@ -21,4 +21,4 @@ export type IListSecretsFilterInput = {
      * (Optional) secret names
      */
     names?: string;
-};
+}
