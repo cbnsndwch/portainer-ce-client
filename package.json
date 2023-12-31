@@ -1,7 +1,7 @@
 {
     "name": "@cbnsndwch/portainer-ce-client",
     "description": "A Portainer CE API client with Docker API support",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Sergio Leon",
         "url": "https://www.cbnsndwch.io"
@@ -25,9 +25,9 @@
         "docs": "yarn build && typedoc --options typedoc.config.js",
         "docs:serve": "yarn docs && cd docs && http-server -o -p 8080",
         "docs:serve:only": "cd docs && http-server -o -p 8080",
-        "vmajor": "version major",
-        "vminor": "version minor",
-        "vpatch": "version patch",
+        "vmajor": "yarn version major",
+        "vminor": "yarn version minor",
+        "vpatch": "yarn version patch",
         "clog": "conventional-changelog -p angular -i CHANGELOG.md -o changelog-temp.md && changelog-temp.md"
     },
     "peerDependencies": {
