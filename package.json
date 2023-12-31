@@ -24,7 +24,11 @@
         "lint:fix": "eslint \"src/**/*\" --fix",
         "docs": "yarn build && typedoc --options typedoc.config.js",
         "docs:serve": "yarn docs && cd docs && http-server -o -p 8080",
-        "docs:serve:only": "cd docs && http-server -o -p 8080"
+        "docs:serve:only": "cd docs && http-server -o -p 8080",
+        "vmajor": "version major",
+        "vminor": "version minor",
+        "vpatch": "version patch",
+        "clog": "conventional-changelog -p angular -i CHANGELOG.md -o changelog-temp.md && changelog-temp.md"
     },
     "peerDependencies": {
         "axios": "^1.6.0"
@@ -36,6 +40,7 @@
         "@typescript-eslint/eslint-plugin": "^6.16.0",
         "@typescript-eslint/parser": "^6.16.0",
         "axios": "^1.6.3",
+        "conventional-changelog-cli": "^4.1.0",
         "eslint": "^8.56.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.29.1",

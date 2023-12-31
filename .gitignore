@@ -54,3 +54,5 @@ lerna-debug.log
 npm-debug.log
 tsconfig.tsbuildinfo
 .n
+
+/changelog-temp.md
