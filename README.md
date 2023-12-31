@@ -49,4 +49,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This project is based in part on the [portainer_api_with_docker_api] package, including some of the contents of this README.md file. `portainer_api_with_docker_api` is licensed under the MIT License.
 
+For detailed information on additional open source software used in this project, please see the [SBOM](sbom.json) file.
+
 [portainer_api_with_docker_api]: https://www.npmjs.com/package/portainer_api_with_docker_api
