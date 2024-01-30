@@ -4511,11 +4511,11 @@ __metadata:
   linkType: hard
 
 "typedoc-plugin-mdn-links@npm:^3.1.9":
-  version: 3.1.9
-  resolution: "typedoc-plugin-mdn-links@npm:3.1.9"
+  version: 3.1.14
+  resolution: "typedoc-plugin-mdn-links@npm:3.1.14"
   peerDependencies:
     typedoc: ">= 0.23.14 || 0.24.x || 0.25.x"
-  checksum: 185cf5a5692363612bcff1a255dea474f44a6f9556e5446e17b9dfa26f748e4b05e9611226c7f01a6ad146bab58cba09fae6ef71014e815280baf010b2dfc4df
+  checksum: 9f1c0b6b34250b2f47a17f576ebab7aa93ab21fb96daba69d3cba9c5856417daaddccb080a56cab53074f508d618739aa27e9e1eb57a31d6a8c8ad97345773d9
   languageName: node
   linkType: hard
 
